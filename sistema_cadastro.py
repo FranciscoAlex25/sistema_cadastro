@@ -7,18 +7,21 @@ def mostrarTela():
     print()
 
     # variáveis do título
-    listar = 'Listar Produtos'
-    cadastrar = 'Cadastrar Produtos'
-    apagar = 'Apagar produto'
-    alterar = 'Alterar produto'
+    alterar = 'Alterar Produtos[2]  |'
+    cadastrar = 'Cadastrar Produtos[1] |'
+    apagar = 'Apagar produto[3]'
+
 
     # menu
-    print('{cad:=^30}[1] {alt:=^30}[2]'.format(cad=cadastrar, alt=alterar))
-    print('{apa:=^30}[3] {lis:=^30}[4]'.format(apa=apagar, lis=listar))
-
+    print(67 * '-')
+    print('{cad: ^22} {alt: ^22} {apa: ^22}'.format(cad=cadastrar, alt=alterar, apa=apagar))
+    print(67 * '-')
+    
     # tabela dos produtos
     print()
+    print(67 * '-')
     print(f'{"ID": ^20} {"PRODUTO": ^20} {"PREÇO": ^20}')
+    print(67 * '-')
     
     # verificando se tem produtos na lista
     if len(lista_produto) == 0:
@@ -29,6 +32,7 @@ def mostrarTela():
             for j in i:
                 print(f'{j: ^20}', end=' ')
             print()
+            print(67 * '-')
             
     print()
     print()
