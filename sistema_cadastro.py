@@ -61,7 +61,7 @@ def cadastrarProd():
     preco = input('Preço do produto: ')
 
     if '.' in preco:
-        preco.replace('.', ',')
+        preco = preco.replace('.', ',')
         lista_produto.append([cod, produto, preco])
     else:
         lista_produto.append([cod, produto, preco])
