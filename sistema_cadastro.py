@@ -59,7 +59,12 @@ def cadastrarProd():
     cod = len(lista_produto) + 1
     produto = input('Nome do produto: ')
     preco = input('Preço do produto: ')
-    lista_produto.append([cod, produto, preco])
+
+    if '.' in preco:
+        preco.replace('.', ',')
+        lista_produto.append([cod, produto, preco])
+    else:
+        lista_produto.append([cod, produto, preco])
 
 # função para excluir produto
 def excluirProd():
