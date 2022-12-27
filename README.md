@@ -1,4 +1,4 @@
 ### SISTEMA DE CADASTRO
 
-Sistema simples de cadastro de produtos
-funcionalidades: CRUD
+- Sistema simples de cadastro de produtos  
+- funcionalidades: CRUD
