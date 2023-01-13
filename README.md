@@ -1,4 +1,4 @@
 ### SISTEMA DE CADASTRO
 
-- Sistema simples de cadastro de produtos  
+- Script simples de cadastro de produtos  
 - funcionalidades: CRUD
